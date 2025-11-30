@@ -12,7 +12,7 @@ function Navbar() {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-lg font-medium">
-          <li className="cursor-pointer">Home</li>
+          <li className="cursor-pointer ">Home</li>
           <li className="cursor-pointer">About</li>
           <li className="cursor-pointer">Menu</li>
           <li className="cursor-pointer">Contact</li>

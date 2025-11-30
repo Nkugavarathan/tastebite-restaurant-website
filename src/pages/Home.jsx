@@ -4,6 +4,9 @@ import Hero from "../components/Hero"
 import About from "../components/About"
 import MenuCard from "../components/MenuCard"
 import { menuData } from "../data"
+import Footer from "../components/Footer"
+import Contact from "../components/Contact"
+import FAQ from "./../components/FAQ"
 
 function Home() {
   return (
@@ -28,6 +31,9 @@ function Home() {
           ))}
         </div>
       </div>
+      <FAQ />
+      <Contact />
+      <Footer />
     </>
   )
 }

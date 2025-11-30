@@ -1,4 +1,26 @@
+
+/* menu card title */
 .title{
     color:#837A7A;
-    
+
+}
+
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+
+ul li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px; 
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+
+ul li:hover::after {
+  width: 100%;
 }
