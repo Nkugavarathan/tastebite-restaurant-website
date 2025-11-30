@@ -1,5 +1,14 @@
 
+.navbar{
+    background-color: #F4EDED;
+}
+/* hero tiitle */
+.hero-title{
+    font-family: sans-serif;
+}
+
 /* menu card title */
+
 .title{
     color:#837A7A;
 
